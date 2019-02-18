@@ -158,17 +158,17 @@ If everything is working correctly then curl should output the following:<br>
 }
 ```
 
-Now you're ready to deploy for production with Restt-CLI [Cloudflare Workers](https://developers.cloudflare.com/workers/):<br>
+Now you're ready to deploy for production with Restt-CLI:<br>
 
 ```bash
 $ restt deploy helloworld-service.js
 ```
 
-Congratulations - you've succesfully built and shipped your services to the edge using [Cloudflare Workers](https://developers.cloudflare.com/workers/)with Restt!<br>
+Congratulations - you've succesfully built and shipped your services to the edge using [Cloudflare Workers](https://developers.cloudflare.com/workers/) with Restt!<br>
 
 You can check a more detailed overview of the above in the [hello world example repository](https://github.com/resttjs/helloworld-example).<br>
 
-Check out the [store example repository](https://github.com/resttjs/store-example) which also includes a [Provider](#provider) using [Stripe](https://stripe.com) and [WorkersKV](https://developers.cloudflare.com/workers/kv/).<br>
+Check out the [store example repository](https://github.com/resttjs/store-example) which includes [Stripe](https://stripe.com) and [Cloudflare WorkersKV](https://developers.cloudflare.com/workers/kv/).<br>
 
 ## API Documentation
 
