@@ -853,7 +853,7 @@ Your can also configure your [cloudflare.routes](#configuration) manually as eit
 
 Routes will always be converted to wildcards when [deployed](#deploying-to-the-edge) (e.g. `https://yourdomain.io` becomes `https://yourdomain.io/*`).<br>
 
-When using [WorkersKV](https://developers.cloudflare.com/workers/kv/) the [workers.namespaces](#configuration) array should only include the names of any namespaces to be used.<br>
+When using [Cloudflare WorkersKV](https://developers.cloudflare.com/workers/kv/) the [workers.namespaces](#configuration) array should only include the names of any namespaces to be used.<br>
 
 Namespace names should only use alphanumeric characters.<br>
 
@@ -954,7 +954,7 @@ Restt-CLI will automatically configure any routes and create any WorkersKV names
 
 Please ensure that you have activated Cloudflare Workers on your Cloudflare account if you are deploying.<br>
 
-When using [Cloudflare WorkerKV](https://developers.cloudflare.com/workers/kv/), please also ensure that you have WorkerKV access enabled on your account.<br>
+When using [Cloudflare WorkersKV](https://developers.cloudflare.com/workers/kv/), please also ensure that you have WorkerKV access enabled on your account.<br>
 
 ## Supporting
 
