@@ -81,6 +81,7 @@ $ npm install -g restt-cli
 
 Creating a simple hello world service with Restt is as easy as the following:<br>
 
+
 ###### helloworld-service.js
 ```js
 // Import the required classes from Restt
@@ -127,7 +128,7 @@ const app = new Restt();
 app.use(helloworld);
 ```
 
-If you're using Restt-CLI (and you're all [configured](https://restt.io/#Configuration)) you can now deploy your services locally:<br>
+If you're using Restt-CLI (and you're all [configured](#configuration)) you can now deploy your services locally:<br>
 
 ```bash
 $ restt serve helloworld-service.js
@@ -147,17 +148,17 @@ If everything is working correctly then curl should output the following:<br>
 }
 ```
 
-Now you're ready to deploy for production with Restt-CLI [Cloudflare Workers](https://developers.cloudflare.com/workers/):<br>
+Now you're ready to deploy for production with Restt-CLI:<br>
 
 ```bash
 $ restt deploy helloworld-service.js
 ```
 
-Congratulations - you've succesfully built and shipped your services to the edge using [Cloudflare Workers](https://developers.cloudflare.com/workers/)with Restt!<br>
+Congratulations - you've succesfully built and shipped your services to the edge using [Cloudflare Workers](https://developers.cloudflare.com/workers/) with Restt!<br>
 
 You can check a more detailed overview of the above in the [hello world example repository](https://github.com/resttjs/helloworld-example).<br>
 
-Check out the [store example repository](https://github.com/resttjs/store-example) which also includes [Stripe](https://stripe.com) and [WorkersKV](https://developers.cloudflare.com/workers/kv/).<br>
+Check out the [store example repository](https://github.com/resttjs/store-example) which includes [Stripe](https://stripe.com) and [Cloudflare WorkersKV](https://developers.cloudflare.com/workers/kv/).<br>
 
 ## API Documentation
 
